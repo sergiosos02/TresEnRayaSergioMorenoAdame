@@ -1,7 +1,10 @@
 package modelo;
 
 public enum Tipo {
-	X("X"),O("O"), blanco("");
+	X("X"),
+	O("O"),
+	blanco("");
+	
 	private String nombre;
 
 	private Tipo(String nombre) {
@@ -13,3 +16,4 @@ public enum Tipo {
 	}
 	
 }
+
