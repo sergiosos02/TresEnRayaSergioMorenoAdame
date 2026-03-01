@@ -18,8 +18,8 @@ public class TresEnRaya {
 	}
 	
     public void reiniciarJuego() {
-        this.tablero = new Tablero(); // Reset the board
-        this.juego = new Juego(); // Reset the game state
+        this.tablero = new Tablero(); // Resetea el tablero
+        this.juego = new Juego(); // Resetea el juego
         this.origen = null;
         this.destino = null;
         this.mover = false;
@@ -150,3 +150,4 @@ public class TresEnRaya {
 	}
 
 }
+
