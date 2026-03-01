@@ -8,10 +8,6 @@ public class Juego {
 	private int numeroJugada = 0;
 	private boolean mover = false;
 
-//	public boolean isJugadaMovimiento() {
-//		return numeroJugada > 6;
-//	}
-
 	public String getTurnoActualName() {
 		// si es impar le toca a X
 		return getTurnoActual().getNombre();
@@ -31,8 +27,6 @@ public class Juego {
 		}
 	}
 
-
-
 	public void setMover(boolean b) {
 		this.mover = b;
 
@@ -43,4 +37,3 @@ public class Juego {
 	}
 
 }
-
