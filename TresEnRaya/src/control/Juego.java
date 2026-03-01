@@ -31,20 +31,7 @@ public class Juego {
 		}
 	}
 
-//	public Tipo getTurnoAnterior() {
-//		if (getTurnoActual() == Tipo.X) {
-//			return Tipo.O;
-//		}
-//		return Tipo.X;
-//	}
-//
-//	public String getTurnoAnteriorName() {
-//		return getTurnoAnterior().getNombre();
-//	}
-//
-//	public boolean isMover() {
-//		return this.mover;
-//	}
+
 
 	public void setMover(boolean b) {
 		this.mover = b;
@@ -56,3 +43,4 @@ public class Juego {
 	}
 
 }
+
